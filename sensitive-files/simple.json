@@ -8,6 +8,7 @@
   "age": 33,
   "eyeColor": "green",
   "name": "Sherrie Bradshaw",
+  "weather": "eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgU3Bpa2UiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTE2MjM5MDIyfQ.AANZ3XWYgUMgLWJhErpBCTFgvuIVXCrE5vaCEzLgU4y0MZHZ_HQkbFg-dDPkN-z0wHbT2kvYAkXjr13-90fWFlOrAVqlLs3X3d9ocwwIKah_w6zjXU9mEs7NFrkXIQSIdNVVvjvKA-kbQCZ-fUiiTiNFbgtJsyy-QnjzNhYWZ2oxENV3",
   "token": "eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgU3Bpa2UiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTE2MjM5MDIyfQ.AANZ3XWYgUMgLWJhErpBCTFgvuIVXCrE5vaCEzLgU4y0MZHZ_HQkbFg-dDPkN-z0wHbT2kvYAkXjr13-90fWFlOrAVqlLs3X3d9ocwwIKah_w6zjXU9mEs7NFrkXIQSIdNVVvjvKA-kbQCZ-fUiiTiNFbgtJsyy-QnjzNhYWZ2oxENV3",
   "password": "qwertyadmin",
   "company": "LUNCHPOD",

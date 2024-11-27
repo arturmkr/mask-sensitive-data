@@ -6,6 +6,8 @@
 03/22 08:51:02 INFO   :..reg_process: registering process with the system
 03/22 08:51:02 INFO   :..reg_process: attempt OS/390 registration
 03/22 08:51:02 INFO   :..reg_process: Token eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgU3Bpa2UiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTE2MjM5MDIyfQ.AEDOWx82uYYIRdwgMRvjRDhmvgIOicQo-mpWeuvfjg8Sb13TIPtkKs41AdLzTo2ARlHiir5nMvUki-h32LQZejO8ANOz2hlL6ScbbWxv6X890vdSyQzmp95y8jcz413RNEz9EOyITK_fu6DGnh-xIXJ91xCk3bTwxsx064iw8bd58FRL
+03/22 08:51:02 INFO   :..reg_process: Weather eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgU3Bpa2UiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTE2MjM5MDIyfQ.AEDOWx82uYYIRdwgMRvjRDhmvgIOicQo-mpWeuvfjg8Sb13TIPtkKs41AdLzTo2ARlHiir5nMvUki-h32LQZejO8ANOz2hlL6ScbbWxv6X890vdSyQzmp95y8jcz413RNEz9EOyITK_fu6DGnh-xIXJ91xCk3bTwxsx064iw8bd58FRL
+03/22 08:51:02 INFO   :..reg_process: eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgU3Bpa2UiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTE2MjM5MDIyfQ.AEDOWx82uYYIRdwgMRvjRDhmvgIOicQo-mpWeuvfjg8Sb13TIPtkKs41AdLzTo2ARlHiir5nMvUki-h32LQZejO8ANOz2hlL6ScbbWxv6X890vdSyQzmp95y8jcz413RNEz9EOyITK_fu6DGnh-xIXJ91xCk3bTwxsx064iw8bd58FRL
 03/22 08:51:02 INFO   :..reg_process: Password qwertyadmin
 03/22 08:51:02 INFO   :..reg_process: return from registration rc=0
 03/22 08:51:06 TRACE  :...read_physical_netif: Home list entries returned = 7
