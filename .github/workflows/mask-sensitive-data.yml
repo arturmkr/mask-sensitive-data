@@ -24,10 +24,10 @@ jobs:
           source venv/bin/activate
           pip install -r requirements.txt
 
-      - name: Run mask sensitive data script
-        run: |
-          chmod +x mask_sensitive_data.sh
-          ./mask_sensitive_data.sh sensitive-files
+      - name: Mask sensitive data
+        uses: ./.github/actions/mask-sensitive-data-action
+        with:
+          target_dir: "sensitive-files"
 
       - name: Run tests
         run: |
