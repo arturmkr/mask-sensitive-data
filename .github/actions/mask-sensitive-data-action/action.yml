@@ -1,0 +1,15 @@
+name: "Mask Sensitive Data"
+description: "An action to remove sensitive data from files in a directory."
+inputs:
+  target_dir:
+    description: "The target directory containing sensitive files."
+    required: true
+    default: "./sensitive-files"
+runs:
+  using: "composite"
+  steps:
+    - name: Run masking script
+      shell: bash
+      run: |
+        chmod +x finalv2.sh
+        ./mask_sensitive_data.sh ${{ inputs.target_dir }}

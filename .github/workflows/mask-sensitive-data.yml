@@ -1,0 +1,35 @@
+name: "Mask Sensitive Data Workflow"
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  mask-sensitive-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Run mask sensitive data script
+        run: |
+          chmod +x mask_sensitive_data.sh
+          ./mask_sensitive_data.sh sensitive-files
+
+      - name: Run tests
+        run: |
+          source venv/bin/activate
+          pytest tests
