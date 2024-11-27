@@ -1,0 +1,44 @@
+03/22 08:51:01 INFO   :.main: *************** RSVP Agent started ***************
+03/22 08:51:01 INFO   :...locate_configFile: Specified configuration file: /u/user10/rsvpd1.conf
+03/22 08:51:01 INFO   :.main: Using log level 511
+03/22 08:51:01 INFO   :..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+03/22 08:51:01 INFO   :..settcpimage: Associate with TCP/IP image name = TCPCS
+03/22 08:51:02 INFO   :..reg_process: registering process with the system
+03/22 08:51:02 INFO   :..reg_process: attempt OS/390 registration
+03/22 08:51:02 INFO   :..reg_process: Token eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgU3Bpa2UiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTE2MjM5MDIyfQ.AEDOWx82uYYIRdwgMRvjRDhmvgIOicQo-mpWeuvfjg8Sb13TIPtkKs41AdLzTo2ARlHiir5nMvUki-h32LQZejO8ANOz2hlL6ScbbWxv6X890vdSyQzmp95y8jcz413RNEz9EOyITK_fu6DGnh-xIXJ91xCk3bTwxsx064iw8bd58FRL
+03/22 08:51:02 INFO   :..reg_process: Password qwertyadmin
+03/22 08:51:02 INFO   :..reg_process: return from registration rc=0
+03/22 08:51:06 TRACE  :...read_physical_netif: Home list entries returned = 7
+03/22 08:51:06 INFO   :...read_physical_netif: index #0, interface VLINK1 has address 129.1.1.1, ifidx 0
+03/22 08:51:06 INFO   :...read_physical_netif: index #1, interface TR1 has address 9.37.65.139, ifidx 1
+03/22 08:51:06 INFO   :...read_physical_netif: index #2, interface LINK11 has address 9.67.100.1, ifidx 2
+03/22 08:51:06 INFO   :...read_physical_netif: index #3, interface LINK12 has address 9.67.101.1, ifidx 3
+03/22 08:51:06 INFO   :...read_physical_netif: index #4, interface CTCD0 has address 9.67.116.98, ifidx 4
+03/22 08:51:06 INFO   :...read_physical_netif: index #5, interface CTCD2 has address 9.67.117.98, ifidx 5
+03/22 08:51:06 INFO   :...read_physical_netif: index #6, interface LOOPBACK has address 127.0.0.1, ifidx 0
+03/22 08:51:06 INFO   :....mailslot_create: creating mailslot for timer
+03/22 08:51:06 INFO   :...mailbox_register: mailbox allocated for timer
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 WARNING:.....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:02 INFO   :..reg_process: -----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCUxgsf6HByx2NeejEVBut5JYZLmTy1jvswlpeZH6/zRCd0/NSF
+QHchqpuoSIu8bqZWpOnWXHnfwGImr1bCvwSEBwN2PeT7LlnBSmwg5N1bz6pTlaNJ
+CJni3Bl8CiHgOVlBAPvILU3qwYGY56OVXS7Z7Iess9Bg3MjrzqCTTGLkowIDAQAB
+AoGAXweZt4n7ufVOrdyTWYEQDFRB0ixRsQ9huAmZUEADXfpc0cdl4K/q6OBXiUi9
+qWFscs/oZfqwBpKWn2tEmiT1tnrcYKe+JYYIRfar6tdwXabOJOqaJjpDPCNg7Pu2
+/LLfZ+V3N4mUyhL2SRgwMoCmz2E3o3lMrDsDtAU4jxYXmnECQQDntGRA8f81IpsH
+H/QoJxQWkxmB1Czt8HhVKk8kwYvNN7G4y1Q954GUi1cfkT/+f4xF5Z9Mts8iT1y+
+fxOjBAwtAkEApF+MRP6+D4/lKl9IMu0dpHJVs66FsF5OH60wURFEq48E+OpglNR6
+B/ABugXdv7C770PDDxyRkkLFeLlUB+WmDwJASbqXJCtdIBVQ62V5lcVJmR1Zwnw3
+h8c7Iy6BXJrR141fWgQpXEFsdE4afQsFKACCLEOy+wA4zRwf0OYy426ISQJAdrsZ
+zECiMwWCyE+ZDEggsEdyRl8a7GHCVrk3/GbXzoB5W/+YkgjEuPURmjhgi/VyWwr8
+W+8L67VVhLWB0E5+2wJBAN3Ag5JB3+Cs92SH23HA3EG8flUEpSECvoZyldeUyg2z
+0J/f2+5vfohz5kZEv/MSl2bD/Y9IFFMTJLPLkZnlgtc=
+-----END RSA PRIVATE KEY-----
+03/22 08:51:02 INFO   :..reg_process: Token: eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgRHVrZSIsImFkbWluIjp0cnVlLCJpYXQiOjE1MTYyMzkwMjJ9.AH542-oiuOJobI9H3t_1PvF5URtD000YzbOclU54mi4Rq1YHlPpdLeslxsjW0s31dU7CbdsSJiUvJrrTGOUb6iuUAKaAZ5M3SDKGsOMnv1oyqVDfpjySrD4_7zF5NQu0mQ-qFH5k0wi2i7OhU4ZIS9yiJxO5U4aywJ6vFqm5JceV6Am8
+03/22 08:51:02 INFO   :..reg_process: Password: qwertyadmin
+03/22 08:51:06 TRACE  :..entity_initialize: interface 129.1.1.1, entity for rsvp allocated and initialized
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP

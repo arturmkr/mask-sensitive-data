@@ -1,0 +1,62 @@
+[
+  {
+    "continent": {
+      "name": "North America",
+      "countries": [
+        {
+          "name": "United States",
+          "cities": [
+            {
+              "city_name": "New York",
+              "token": "eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1pa2UgU3Bpa2UiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTE2MjM5MDIyfQ.AANZ3XWYgUMgLWJhErpBCTFgvuIVXCrE5vaCEzLgU4y0MZHZ_HQkbFg-dDPkN-z0wHbT2kvYAkXjr13-90fWFlOrAVqlLs3X3d9ocwwIKah_w6zjXU9mEs7NFrkXIQSIdNVVvjvKA-kbQCZ-fUiiTiNFbgtJsyy-QnjzNhYWZ2oxENV3",
+              "password": "qwertyadmin"
+            },
+            {
+              "city_name": "Los Angeles"
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "cities": [
+            {
+              "city_name": "Toronto"
+            },
+            {
+              "city_name": "Vancouver"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "continent": {
+      "name": "Europe",
+      "countries": [
+        {
+          "name": "France",
+          "cities": [
+            {
+              "city_name": "Paris"
+            },
+            {
+              "city_name": "Lyon"
+            }
+          ]
+        },
+        {
+          "name": "Germany",
+          "cities": [
+            {
+              "city_name": "Berlin"
+            },
+            {
+              "city_name": "Munich"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
